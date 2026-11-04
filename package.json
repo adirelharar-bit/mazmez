@@ -1,0 +1,12 @@
+{
+  "name": "mazmez",
+  "version": "1.0.0",
+  "description": "mazmez – משחק אומהה על שלושה לוחות לשניים עד ארבעה שחקנים",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
