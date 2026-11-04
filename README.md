@@ -10,8 +10,7 @@
 
 | קובץ | מה הוא עושה |
 |---|---|
-| `server.js` | השרת: מגיש את העמוד ומנהל את השולחנות |
-| `lib/ws-lite.js` | החיבור בזמן אמת בין השרת לשחקנים |
+| `server.js` | השרת: מגיש את העמוד, מנהל את השולחנות ואת החיבור בזמן אמת |
 | `public/index.html` | העמוד והעיצוב |
 | `public/app.js` | מה שקורה בדפדפן: ציור המשחק, גרירה, חשיפת הלוחות |
 | `public/omaha.js` | חוקי המשחק וחישוב הידיים, משותף לשרת ולדפדפן |
@@ -23,8 +22,9 @@
 1. נכנסים ל-[github.com](https://github.com) ופותחים חשבון אם אין.
 2. לוחצים **New** (מאגר חדש), קוראים לו `mazmez` ולוחצים **Create repository**. אפשר להשאיר אותו פרטי (Private).
 3. במסך שנפתח לוחצים על הקישור **uploading an existing file**.
-4. פותחים את הקובץ המכווץ, וגוררים לחלון את **כל מה שבתוכו**: הקבצים `server.js`, `package.json`, `render.yaml`, `README.md` ואת התיקיות `lib` ו-`public`.
-5. לוחצים **Commit changes**.
+4. פותחים את הקובץ המכווץ, וגוררים לחלון את **כל מה שבתוכו**: הקבצים `server.js`, `package.json`, `render.yaml`, `README.md` ואת התיקייה `public` עצמה (גוררים את התיקייה, לא רק את הקבצים שבתוכה).
+5. לפני השמירה בודקים שברשימה מופיעים `public/index.html`, `public/app.js`, `public/omaha.js` ו-`public/icon.svg`.
+6. לוחצים **Commit changes**.
 
 ### שלב 2: להפעיל את השרת ב-Render
 1. נכנסים ל-[render.com](https://render.com) ונרשמים עם חשבון ה-GitHub.
